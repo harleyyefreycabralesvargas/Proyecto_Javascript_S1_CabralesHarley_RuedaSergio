@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "letra";
+    src: url(../storage/fonts/Orbitron-Black.ttf);
+}
+
+@font-face {
+    font-family: "sans";
+    src: url(../storage/fonts/InriaSans-Regular.ttf);
+}
+
+body {
+    width: 1920px;
+    height: 1080px;
+    background-image: url("../storage/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.login_text {
+    position: relative;
+    font-family: "letra";
+    color: red;
+    width: 50vw;
+    font-size: 3vw;
+    left: 37vw;
+    
+}
+
+.cuadro1 {
+    position: relative;
+    width: 40vw;
+    height: 6vh;
+    top: 10vh;
+    left: 28.5vw;
+    font-family: "sans";
+    font-size: 30px;
+    border-radius: 195px;
+}
+
+.cuadro2 {
+    position: relative;
+    top: 28vh;
+    width: 40vw;
+    height: 6vh;
+    left: 28.5vw;
+    font-family: "sans";
+    font-size: 30px;
+    border-radius: 195px;
+}
+
+.boton {
+    position: relative;
+    top: 45vh;
+    width: 15vw;
+    height: 8vh;
+    font-size: 2.5vw;
+    font-family: "letra";
+    background-color: red;
+    border-radius: 195px;
+    left: 1vw;
+    color: white;
+}
