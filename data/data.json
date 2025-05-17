@@ -1,0 +1,26 @@
+{
+    "usuarios": [
+    {
+        "usuario": "user0",
+        "correo": "correo0",
+        "contraseña": "1"
+    },
+    {
+        "usuario": "user1",
+        "correo": "correo1",
+        "contraseña": "12"
+    },
+    {
+        "usuario": "user2",
+        "correo": "correo2",
+        "contraseña": "123"
+    }
+    ],
+    "administradores": [
+    {
+    "usuario":"user4",
+    "correo":"correo4",
+    "contraseña":"1234"
+    }
+    ]
+}
