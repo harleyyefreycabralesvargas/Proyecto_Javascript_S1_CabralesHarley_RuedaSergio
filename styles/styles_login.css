@@ -64,7 +64,10 @@ body {
     left: 41.5vw;
     color: white;
 }
-
+.text_boton{
+    text-decoration: none;
+    color: white;
+}
 .text_Register {
     position: relative;
     font-family: "letra";

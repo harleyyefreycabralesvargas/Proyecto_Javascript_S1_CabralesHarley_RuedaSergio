@@ -3,24 +3,26 @@
     {
         "usuario": "user0",
         "correo": "correo0",
+        "tipo_usuario":"usuario",
         "contraseña": "1"
     },
     {
         "usuario": "user1",
         "correo": "correo1",
+        "tipo_usuario":"usuario",
         "contraseña": "12"
     },
     {
         "usuario": "user2",
         "correo": "correo2",
+        "tipo_usuario":"usuario",
         "contraseña": "123"
-    }
-    ],
-    "administradores": [
+    },
     {
-    "usuario":"user4",
-    "correo":"correo4",
-    "contraseña":"1234"
+        "usuario":"user4",
+        "correo":"correo4",
+        "tipo_usuario":"admin",
+        "contraseña":"1234"
     }
-    ]
+]
 }
