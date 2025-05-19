@@ -50,7 +50,7 @@ let usuarios_user ="";
 let correo_user = "";
 let contrasena_user = "";
 for(i=0;i<datos.usuarios.length;i++){
-usuarios_user =datos.usuarios[i].usuario
+usuarios_user =datos.usuarios[i].tipo_usuario
 correo_user = datos.usuarios[i].correo
 contrasena_user = datos.usuarios[i].contraseña
 
@@ -60,7 +60,7 @@ console.log(correo_user);
 console.log(contrasena_user)
 
 
-        if(tomar_correo1==correo_user){
+        if(tomar_correo1==correo_user && usuarios_user=="usuario"){
             console.log("xd")
             if(tomar_contraseña1==contrasena_user){
                 console.log("tttt")
@@ -68,7 +68,19 @@ console.log(contrasena_user)
                 console.log(link_incio)
                 link_incio.innerHTML=`  
             <div id="redirecciones">
-            <button class="boton" type="button" id="entrar"><a class="text_boton" href="./menu_opciones.html"><p class="text_boton">Entrar</p></a></button>
+            <button class="boton" type="button" id="entrar"><a class="text_boton" href="./menu_opciones_user.html"><p class="text_boton">Entrar</p></a></button>
+            <p class="text_Register">Si no tienes cuenta, crea una ||</p>
+            <a href="./index_register.html">
+                <p class="create_account">Crear cuenta</p>
+            </a>
+            </div>`
+            }
+            else if(tomar_correo1==correo_user && usuarios_user=="admin"){
+                let link_incio=document.getElementById("redirecciones")
+                console.log(link_incio)
+                link_incio.innerHTML=`  
+            <div id="redirecciones">
+            <button class="boton" type="button" id="entrar"><a class="text_boton" href="./menu_opciones_admin.html"><p class="text_boton">Entrar</p></a></button>
             <p class="text_Register">Si no tienes cuenta, crea una ||</p>
             <a href="./index_register.html">
                 <p class="create_account">Crear cuenta</p>
