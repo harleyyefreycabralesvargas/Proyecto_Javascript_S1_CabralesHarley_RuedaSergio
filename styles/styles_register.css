@@ -53,11 +53,19 @@ body {
     padding-left: 100px;
 }
 
+.icono1 {
+    position: relative;
+    width: 3vw;
+    left: 29vw; 
+    top: -15vh;
+
+}
+
 .cuadro1 {
     position: relative;
   width: 40vw;
   height: 11vh;
-  top: 32vh;
+  top: 33vh;
   left: -18vw;
   font-family: "sans";
   font-size: 30px;
@@ -65,12 +73,12 @@ body {
   padding-left: 100px; /* <--- Aquí empujas el texto hacia la derecha */
 }
 
-.icono1 {
+
+.icono2 {
     position: relative;
-    width: 40vw;
-    top: 25.6vh;
-    left: 20vw;
-    
+    left: 25.5vw;
+    top: 2.5vh;
+    width: 4vw;
 }
 
 
@@ -86,6 +94,15 @@ body {
     border-radius: 195px;
     padding-left: 100px;
 }
+
+.icono3 {
+    position: relative;
+    width: 4vw;
+    left: 21vw;
+    top: 19vh;
+    
+}
+
 
 .boton {
     position: relative;
@@ -115,7 +132,7 @@ body {
     font-family: "letra";
     font-size: 2vw;
     color: red;
-    top: 55.8vh;
+    top: 55vh;
     left: 55.5vw;
 }
 
