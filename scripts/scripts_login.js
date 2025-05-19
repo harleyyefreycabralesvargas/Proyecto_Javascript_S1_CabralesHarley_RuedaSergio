@@ -75,7 +75,9 @@ console.log(contrasena_user)
             </a>
             </div>`
             }
+            }
             else if(tomar_correo1==correo_user && usuarios_user=="admin"){
+                if(tomar_contraseña1==contrasena_user){
                 let link_incio=document.getElementById("redirecciones")
                 console.log(link_incio)
                 link_incio.innerHTML=`  
@@ -86,7 +88,9 @@ console.log(contrasena_user)
                 <p class="create_account">Crear cuenta</p>
             </a>
             </div>`
+                }
             }
+            
             else{
                 console.log("ssss")
                 let link_incio=document.getElementById("redirecciones")
@@ -101,8 +105,8 @@ console.log(contrasena_user)
                 </a>
                 </div>`
             }
-
-        }
+            
+        
     }
     }
 });
