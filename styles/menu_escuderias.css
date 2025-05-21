@@ -1,0 +1,196 @@
+@font-face {
+    font-family: "letra";
+    src: url(../storage/fonts/Orbitron-Regular.ttf);
+}
+
+@font-face {
+    font-family: "sans";
+    src: url(../storage/fonts/InriaSans-Regular.ttf);
+}
+
+
+
+body {
+    background-color: rgb(41, 41, 41);
+    width: 1920px;
+    height: 1080px;
+    background-image: url("../storage/images/background_escuderias.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.panel_interactivo {
+    position: relative;
+    width: 88vw;
+    background-color: white;
+    height: 10vh;
+    top: 4vh;
+    left: 5.5vw;
+    border-radius: 50px;
+}
+
+.pilotos {
+    position: relative;
+    font-family: "letra";
+    color: black;
+    font-size: 2.5vw;
+    padding-top: 3vh;
+    padding-left: 2vw;
+}
+
+.coches {
+    position: relative;
+    font-family: "letra";
+    color: black;
+    font-size: 2.5vw;
+    left: 15vw;
+    top: -8.5vh;
+}
+
+.circuitos {
+    position: relative;
+    font-family: "letra";
+    color: black;
+    font-size: 2.5vw;
+    left: 30vw;
+    top: -17.5vh;
+}
+
+.escuderias {
+    position: relative;
+    font-family: "letra";
+    color: black;
+    font-size: 2.5vw;
+    left: 48vw;
+    top: -26.4vh;
+}
+
+.personalizar {
+    position: relative;
+    font-family: "letra";
+    color: black;
+    font-size: 2.5vw;
+    left: 68vw;
+    top: -20vw;
+}
+
+/* -------------------------------------------------------- */
+
+
+.mclaren {
+    width: 25vw;
+    height: 18vw;
+    background-image: url("../storage/images/mclaren_1.webp");
+    position: relative;
+    top: 10vh;
+    border-radius: 60px;
+    left: 5vw;
+}
+
+
+.ferrari {
+    width: 24vw;
+    height: 17vw;
+    background-image: url("../storage/images/ferrari_1.webp");
+    position: relative;
+    top: 9vh;
+    left: 13vw;
+    border-radius: 60px;
+}
+
+
+.mercedes {
+    background-image: url("../storage/images/mercedes_1.webp");
+    position: relative;
+    top: 9vh;
+    left: 20vw;
+    border-radius: 60px;
+    width: 25.7vw;
+    height: 30vh;
+    background-size: contain;
+}
+
+.redbull {
+    width: 25vw;
+    height: 16.7vw;
+    border-radius: 60px;
+    background-image: url("../storage/images/redbull_1.webp");
+    position: relative;
+    left: 5vw;
+    top: 15vh;
+    background-repeat: no-repeat;
+
+}
+
+.alpine {
+    height: 16.7vw;
+    background-image: url("../storage/images/alpine_1.webp");
+    position: relative;
+    width: 25vw;
+    left: 12vw;
+    top: 15vh;
+    border-radius: 60px;
+}
+
+.astonmartin {
+    height: 16.7vw;
+    background-image: url("../storage/images/astonmartin_1.webp");
+    position: relative;
+    width: 25.5vw;
+    left: 19vw;
+    top: 15vh;
+    border-radius: 60px;
+
+}
+
+.haas {
+    height: 16.7vw;
+    width: 25.5vw;
+    background-image: url("../storage/images/haas.webp");
+    left: 5vw;
+    border-radius: 60px;
+    background-repeat: no-repeat;
+    top: 11.5vw;
+    position: relative;
+    background-size: contain;
+    
+}
+
+.racingbulls {
+    height: 16vw;
+    width: 25.5vw;
+    background-image: url("../storage/images/racing_bulls.webp");
+    left: 10vw;
+    border-radius: 60px;
+    background-repeat: no-repeat;
+    top: 10.8vw;
+    position: relative;
+    background-size: contain;
+}
+
+.sauber {
+    height: 16vw;
+    width: 23.8vw;
+    background-image: url("../storage/images/sauber_2.webp");
+    left: 19vw;
+    border-radius: 60px;
+    background-repeat: no-repeat;
+    top: 10.8vw;
+    position: relative;
+    background-size: contain;
+
+}
+
+.williams {
+    height: 16vw;
+    width: 23.8vw;
+    background-image: url("../storage/images/williams.webp");
+    left: -39vw;
+    border-radius: 60px;
+    background-repeat: no-repeat;
+    top: 30vw;
+    position: relative;
+    background-size: contain;
+}
+
+

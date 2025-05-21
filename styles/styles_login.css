@@ -76,18 +76,20 @@ body {
 .boton {
     position: relative;
     top: 42vh;
-    width: 27vw;
+    width: 33vw;
     height: 12vh;
+    padding: 33px;
     font-family: "letra";
     background-color: #ff0000 ;
     border-radius: 195px;
-    left: 37vw;
+    margin-left: 33vw;
     color: white;
 
 }
 .text_boton{
     text-decoration: none;
     color: white;
+    padding: ;
     font-size: 4vw;
 }
 .text_Register {
@@ -99,13 +101,16 @@ body {
     left: 25vw;
 
 }
-
+a{
+    text-decoration: none;
+}
 .create_account {
+    text-decoration: none;
     position: relative;
     font-family: "letra";
     font-size: 2vw;
     color: red;
-    top: 43.5vh;
+    top: 44.5vh;
     left: 59vw;
 }
 
