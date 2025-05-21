@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "letra";
+    src: url(../storage/fonts/Orbitron-Regular.ttf);
+}
+
+@font-face {
+    font-family: "sans";
+    src: url(../storage/fonts/InriaSans-Regular.ttf);
+}
+
+
+
+body {
+    width: 1920px;
+    height: 1080px;
+    background-image: url("../storage/images/fondo_menu_de_usuarios.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation: animacion1 10s infinite;
+}
+
+.panel_interactivo {
+    position: relative;
+    width: 88vw;
+    background-color: white;
+    height: 10vh;
+    top: 4vh;
+    left: 5.5vw;
+    border-radius: 50px;
+}
+
+.pilotos {
+    position: relative;
+    font-family: "letra";
+    color: black;
+    font-size: 2.5vw;
+    padding-top: 3vh;
+    padding-left: 2vw;
+}
+
+.coches {
+    position: relative;
+    font-family: "letra";
+    color: black;
+    font-size: 2.5vw;
+    left: 15vw;
+    top: -8.5vh;
+}
+
+.circuitos {
+    position: relative;
+    font-family: "letra";
+    color: black;
+    font-size: 2.5vw;
+    left: 30vw;
+    top: -17.5vh;
+}
+
+.escuderias {
+    position: relative;
+    font-family: "letra";
+    color: black;
+    font-size: 2.5vw;
+    left: 48vw;
+    top: -26.4vh;
+}
+
+.personalizar {
+    position: relative;
+    font-family: "letra";
+    color: black;
+    font-size: 2.5vw;
+    left: 68vw;
+    top: -20vw;
+}
+
+
+
+/* -------------------------------------------------------------------------------------------------- */
+
+.boton_pilotos {
+    width: 28vw;
+    height: 18vw;
+    background-image: url("../storage/images/pilotos1.webp");
+    position: relative;
+    top: -28vh;
+    border-radius: 60px;
+    left: 4vw;
+}
+
+
+.boton_coches {
+    width: 28vw;
+    height: 18vw;
+    background-image: url("../storage/images/coches_para_mostrar.webp");
+    position: relative;
+    top: 10vh;
+    left: -25vw;
+    border-radius: 60px;
+}
+
+
+.boton_circuitos {
+    background-image: url("../storage/images/circuitos.webp");
+    position: relative;
+    top: 10vh;
+    left: -21vw;
+    border-radius: 60px;
+    width: 26.2vw;
+    height: 70vh;
+}
+
+.boton_escuderias {
+    width: 26.2vw;
+    height: 16.7vw;
+    border-radius: 60px;
+    background-image: url("../storage/images/escuderias_1.webp");
+    position: relative;
+    left: 65vw;
+    top: -60vh;
+    background-repeat: no-repeat;
+
+}
+
+.boton_clima {
+    height: 16.7vw;
+    background-image: url("../storage/images/clima.webp");
+    position: relative;
+    width: 30vw;
+    left: 38.5vw;
+    top: -24vh;
+    border-radius: 60px;
+    
+}
+
+@keyframes animacion1 {
+    0% {
+        background-image: url("../storage/images/pilotos_todos1.png")
+    }
+
+    25% {
+        background-image: url("../storage/images/vuelta1.png");
+    }
+    
+    50% {
+        background-image: url("../storage/images/escuderias2.png")
+    }
+
+    75% {
+        background-image: url("../storage/images/taller1.png")
+    }
+
+    100% {
+        background-image: url("../storage/images/pilotos_todos1.png")
+    }
+
+    
+}
+
