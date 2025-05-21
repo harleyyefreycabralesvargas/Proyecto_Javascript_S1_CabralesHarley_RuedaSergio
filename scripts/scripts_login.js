@@ -11,13 +11,15 @@ function getusuarios(tomar_correo1, tomar_contraseña1){
             let i=0
 
 let correo_userc = "";
-
-for(i=0;i<daticos.length;i++){
+let h=1;
+console.log("yaaaa")
+for(i=0;i<2;i++){
 
     correo_userc = daticos[i].correo;
 
     let a="";
     if(correo_userc ==tomar_correo1){
+        h=h+1
         a=i
         let usuarios_user =daticos[a].tipo_usuario
         let correo_user = daticos[a].correo
@@ -25,6 +27,11 @@ for(i=0;i<daticos.length;i++){
         console.log(usuarios_user);
         console.log(correo_user);
         console.log(contrasena_user)
+    }
+    else{
+        h=h+1
+    }
+}
         if(tomar_correo1==correo_user && usuarios_user=="user"){
             console.log("tomaron los datos para verificar user")
             let link_incio=document.getElementById("redirecciones")
@@ -76,8 +83,7 @@ for(i=0;i<daticos.length;i++){
             
         
     }
-    }
-})};
+    )};
 
 
 

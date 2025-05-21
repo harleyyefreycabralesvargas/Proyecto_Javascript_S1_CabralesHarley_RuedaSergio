@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "letra";
+    src: url(../storage/fonts/Orbitron-Regular.ttf);
+}
+
+@font-face {
+    font-family: "sans";
+    src: url(../storage/fonts/InriaSans-Regular.ttf);
+}
+
+
+
+body {
+    width: 1920px;
+    height: 1080px;
+    background-image: url("../storage/images/background_circuitos_1.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.panel_interactivo {
+    position: relative;
+    width: 88vw;
+    background-color: white;
+    height: 10vh;
+    top: 4vh;
+    left: 5.5vw;
+    border-radius: 50px;
+}
+
+.pilotos {
+    position: relative;
+    font-family: "letra";
+    color: black;
+    font-size: 2.5vw;
+    padding-top: 3vh;
+    padding-left: 2vw;
+}
+
+.coches {
+    position: relative;
+    font-family: "letra";
+    color: black;
+    font-size: 2.5vw;
+    left: 15vw;
+    top: -8.5vh;
+}
+
+.circuitos {
+    position: relative;
+    font-family: "letra";
+    color: black;
+    font-size: 2.5vw;
+    left: 30vw;
+    top: -17.5vh;
+}
+
+.escuderias {
+    position: relative;
+    font-family: "letra";
+    color: black;
+    font-size: 2.5vw;
+    left: 48vw;
+    top: -26.4vh;
+}
+
+.personalizar {
+    position: relative;
+    font-family: "letra";
+    color: black;
+    font-size: 2.5vw;
+    left: 68vw;
+    top: -20vw;
+}
+
+/* -------------------------------------------------------------------------------------------------- */

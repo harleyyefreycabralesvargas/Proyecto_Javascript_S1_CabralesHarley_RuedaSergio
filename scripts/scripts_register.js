@@ -1,3 +1,4 @@
+
 function getusuarios(usuario,correo,tipo_usuario,contrasena) {
     let link = `https://682b2bf7ab2b5004cb396ecf.mockapi.io/usuarios`;
     axios.get(link)
