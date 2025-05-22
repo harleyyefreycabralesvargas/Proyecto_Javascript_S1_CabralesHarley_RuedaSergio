@@ -74,3 +74,87 @@ body {
 }
 
 /* -------------------------------------------------------------------------------------------------- */
+
+
+.monaco {
+    position: relative;
+    left: 3vw;
+    top: 9vh;
+}
+
+.nombre_circuito {
+    position: relative;
+    font-family: "letra";
+    color: white;
+    font-size: 36px;
+    top: 6.8vh;
+    left: 8.5vw;
+}
+
+.container_circuito {
+    position: relative;
+    width: 828px;
+    height: 838px;
+    background-color: black;
+    border-radius: 70px;
+    left: 40vw;
+    top: -33vh;
+}
+
+.imagen_click {
+    position: relative;
+    top: 2vh;
+    left: 5.5vw;
+}
+
+.nombre_circuito_card {
+    position: relative;
+    font-family: "letra";
+    font-size: 32px;
+    top: 0.5vh;
+    color: red;
+    left: 14vw;
+}
+
+.nombre_pais_card {
+    position: relative;
+    font-family: "letra";
+    font-size: 32px;
+    color: red;
+    left: 14vw;
+    top: -1vh;
+}
+
+.descripcion_card {
+    position: relative;
+    font-family: "letra";
+    font-size: 32px;
+    color: red;
+    top: -1vh;
+}
+
+.num_vueltas {
+    position: relative;
+    font-family: "letra";
+    font-size: 32px;
+    color: red;
+    top: -2vh;
+}
+
+.longitud {
+    position: relative;
+    font-family: "letra";
+    font-size: 32px;
+    color: red;
+    top: -2vh;
+}
+
+.record {
+    position: relative;
+    font-family: "letra";
+    font-size: 32px;
+    color: red;
+    top: -2vh;
+
+
+}

@@ -1,6 +1,6 @@
 @font-face {
     font-family: "letra";
-    src: url(../storage/fonts/Orbitron-Regular.ttf);
+    src: url(../storage/fonts/Orbitron-Black.ttf);
 }
 
 @font-face {
@@ -16,4 +16,124 @@ body {
     background-image: url("../storage/images/back_1_1.webp");
     background-repeat: no-repeat;
     background-size: 100%;
+}
+.panel_interactivo {
+    position: relative;
+    width: 88vw;
+    background-color: white;
+    height: 10vh;
+    top: 4vh;
+    left: 5.5vw;
+    border-radius: 50px;
+}
+
+.pilotos {
+    position: relative;
+    font-family: "letra";
+    color: black;
+    font-size: 2.5vw;
+    padding-top: 3vh;
+    padding-left: 2vw;
+}
+
+.coches {
+    position: relative;
+    font-family: "letra";
+    color: black;
+    font-size: 2.5vw;
+    left: 15vw;
+    top: -8.5vh;
+}
+
+.circuitos {
+    position: relative;
+    font-family: "letra";
+    color: black;
+    font-size: 2.5vw;
+    left: 30vw;
+    top: -17.5vh;
+}
+
+.escuderias {
+    position: relative;
+    font-family: "letra";
+    color: black;
+    font-size: 2.5vw;
+    left: 48vw;
+    top: -26.4vh;
+}
+
+.personalizar {
+    position: relative;
+    font-family: "letra";
+    color: black;
+    font-size: 2.5vw;
+    left: 68vw;
+    top: -20vw;
+}
+
+
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.background_card {
+    position: relative;
+    border-radius: 20px;
+    border: 2px solid red;
+    width: 400px;
+    top: 10vh;
+    flex: 0 0 calc(23% - 64px);
+    margin: right;
+    height: 300px;
+    background-image: url("../storage/images/background_card.webp");
+    background-repeat: no-repeat;
+}
+
+
+.piloto {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding-left: 10vw;
+    top: -23vh;
+}
+
+.coche {
+    position: relative;
+    width: 250px;
+    height: 100px;
+    left: 0vw;
+    top: -2vh;
+}
+
+.nombre_piloto {
+    position: relative;
+    font-family: "letra";
+    color: red;
+    font-size: 36px;
+    left: 1vw;
+    top: 0vh;
+
+}
+
+.cargo {
+    position: relative;
+    font-family: "letra";
+    color: white;
+    font-size: 25px;
+    top: -3vh;
+    left: 1vw;
+}
+
+.team {
+    position: relative;
+    font-family: "letra";
+    color: white;
+    font-size: 25px;
+    width: 223px;
+    left: 1vw;
+    top: -5vh;
 }

@@ -1,0 +1,239 @@
+const pilotos = [
+    { id: 1, nombre: "Max Verstappen", equipo: "Red Bull Racing", rol: "Líder", imagen_piloto:"https://www.hsbnoticias.com/wp-content/uploads/2025/04/3.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/red-bull-racing.png"},
+    { id: 2, nombre: "Sergio Pérez", equipo: "Red Bull Racing", rol: "Escudero", imagen_piloto:"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f5002171-beba-44a9-b181-42f4291e6f7a/diu3ula-a962b55f-cd5a-46ca-aa10-7f6169e78e57.png/v1/fill/w_512,h_512/sergio_perez_formula_1_2024_driver_by_chito728_diu3ula-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvZjUwMDIxNzEtYmViYS00NGE5LWIxODEtNDJmNDI5MWU2ZjdhXC9kaXUzdWxhLWE5NjJiNTVmLWNkNWEtNDZjYS1hYTEwLTdmNjE2OWU3OGU1Ny5wbmciLCJ3aWR0aCI6Ijw9NTEyIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.LojLBba7GgoIV3FuViDog1gErtGq6WkiofLsv0NoY6s",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/red-bull-racing.png" },
+    { id: 3, nombre: "Lewis Hamilton", equipo: "Mercedes-AMG Petronas", rol: "Líder", imagen_piloto:"https://celebs.infoseemedia.com/wp-content/uploads/2020/10/Lewis-Hamilton.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/mercedes.png" },
+    { id: 4, nombre: "George Russell", equipo: "Mercedes-AMG Petronas", rol: "Escudero", imagen_piloto:"https://cdn.pli-petronas.com/2023-06/russel.png?VersionId=IruZZg734FSiSJa8J6QPVH7t1n7vffwi",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/mercedes.png" },
+    { id: 5, nombre: "Charles Leclerc", equipo: "Ferrari", rol: "Líder", imagen_piloto:"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f5002171-beba-44a9-b181-42f4291e6f7a/diu3s56-9116f0dd-23c3-4209-a8e5-fd0bbb1872c9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y1MDAyMTcxLWJlYmEtNDRhOS1iMTgxLTQyZjQyOTFlNmY3YVwvZGl1M3M1Ni05MTE2ZjBkZC0yM2MzLTQyMDktYThlNS1mZDBiYmIxODcyYzkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.tLpFz4Wir34ke-DugRHKCZGHmhIaYnEUhd_ORl_KTvM",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/ferrari.png" },
+    { id: 6, nombre: "Carlos Sainz", equipo: "Ferrari", rol: "Escudero", imagen_piloto:"https://www.carlossainz.es/upload/media/default/0001/18/5d079623d92331fe912be990fdc9395866369966.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/ferrari.png" },
+    { id: 7, nombre: "Lando Norris", equipo: "McLaren", rol: "Líder", imagen_piloto:"https://sportrenders.com/wp-content/uploads/2024/05/Norris-PNG-F1-Render-Formula-1-1-1.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/mclaren.png" },
+    { id: 8, nombre: "Oscar Piastri", equipo: "McLaren", rol: "Escudero", imagen_piloto:"https://sportrenders.com/wp-content/uploads/2024/09/Oscar-Piastri-PNG-Formula-1-Mclaren-Render.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/mclaren.png" },
+    { id: 9, nombre: "Fernando Alonso", equipo: "Aston Martin", rol: "Líder", imagen_piloto:"https://e00-especiales-marca.uecdn.es/motor/images/formula1/escuderias/2025/astonmartin/alonso.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/aston-martin.png" },
+    { id: 10, nombre: "Lance Stroll", equipo: "Aston Martin", rol: "Escudero", imagen_piloto:"https://e00-especiales-marca.uecdn.es/motor/images/formula1/escuderias/2025/astonmartin/stroll.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/aston-martin.png" },
+    { id: 11, nombre: "Esteban Ocon", equipo: "Alpine", rol: "Líder", imagen_piloto:"https://premaracing.com/pictures/hall-of-fame/card/esteban-ocon.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/alpine.png" },
+    { id: 12, nombre: "Pierre Gasly", equipo: "Alpine", rol: "Escudero", imagen_piloto:"https://premaracing.com/pictures/hall-of-fame/card/pierre-gasly.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/alpine.png" },
+    { id: 13, nombre: "Valtteri Bottas", equipo: "Alfa Romeo", rol: "Líder", imagen_piloto:"https://premaracing.com/pictures/hall-of-fame/card/valtteri-bottas.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/kick-sauber.png" },
+    { id: 14, nombre: "Zhou Guanyu", equipo: "Alfa Romeo", rol: "Escudero", imagen_piloto:"https://premaracing.com/pictures/hall-of-fame/card/guanyu-zhou.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/kick-sauber.png" },
+    { id: 15, nombre: "Kevin Magnussen", equipo: "Haas", rol: "Líder", imagen_piloto:"https://lifeextensioneurope.b-cdn.net//media/2e/f2/8d/1697606471/Kevin_700x770.png?width=3000&height={height}",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/haas.png" },
+    { id: 16, nombre: "Nico Hülkenberg", equipo: "Haas", rol: "Escudero", imagen_piloto:"https://www.kymillman.com/wp-content/uploads/f1/pages/driver-profiles/nico-hulkenberg/nico-hulkenberg-walking.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/haas.png" },
+    { id: 17, nombre: "Yuki Tsunoda", equipo: "AlphaTauri", rol: "Líder", imagen_piloto:"https://www.kymillman.com/wp-content/uploads/f1/pages/driver-profiles/yuki-tsunoda/yuki-tsunoda-walking.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/racing-bulls.png" },
+    { id: 18, nombre: "Daniel Ricciardo", equipo: "AlphaTauri", rol: "Escudero", imagen_piloto:"https://e00-especiales-marca.uecdn.es/motor/images/formula1/escuderias/2022/v2/mclaren/ricciardo.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/racing-bulls.png" },
+    { id: 19, nombre: "Alexander Albon", equipo: "Williams", rol: "Líder", imagen_piloto:"https://www.kymillman.com/wp-content/uploads/f1/pages/driver-profiles/alexander-albon/alexander-albon-walking.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/williams.png" },
+    { id: 20, nombre: "Logan Sargeant", equipo: "Williams", rol: "Escudero", imagen_piloto:"https://cdn.williamsf1.tech/images/fnx611yr/production/81af34166fa93b27bfa286e3a2386e29fcab9132-1200x1200.png?w=625&h=625&auto=format",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/williams.png" }
+    ]
+    
+    // Lista de equipos con sus pilotos
+    const equipos = [
+    {
+    nombre: "Red Bull Racing",
+    pais: "Austria",
+    motor: "Honda",
+    pilotos: ["Max Verstappen","Sergio Perez"],
+    },
+
+    {
+    nombre: "Mercedes-AMG Petronas",
+    pais: "Alemania",
+    motor: "Mercedes",
+    pilotos: ["Lewis Hamilton", "George Russel"],
+    },
+
+    {
+    nombre: "Ferrari",
+    pais: "Italia",
+    motor: "Ferrari",
+    pilotos: ["Charles Leclerc", "Carlos Sainz"],
+    },
+
+    {
+    nombre: "McLaren"
+    pais: "Inglaterra"
+    motor: "Mercedes"
+    pilotos: ["Lando Norris", "Oscar Piastri"]
+    },
+
+    {
+    nombre: "Aston Martin"
+    pais: "Reino Unido"
+    motor: "Mercedes"
+    pilotos:["Fernando Alonso", "Lance Stroll"]
+    },
+
+    {
+    nombre: "Alpine"
+    pais: "Francia"
+    motor: "Renault"
+    pilotos:["Esteban Ocon", "Pierre Gasly"]
+    },
+
+    {
+    nombre: "Alfa Romeo"
+    pais: "Suiza"
+    motor: "Ferrari"
+    pilotos:["Valtteri Bottas", "Zhou Guanyu"]
+    },
+
+    {
+    nombre: "Haas"
+    pais: "Estados Unidos"
+    motor: "Ferrari"
+    pilotos:["Kevin Magnussen", "Nico Hülkenberg"]
+    },
+
+    {
+    nombre: "Alpha Tauri"
+    pais: "Italia"
+    motor: "Honda"
+    pilotos:["Yuki Tsunoda", "Daniel Ricciardo"]
+    },
+
+    {
+    nombre: "Williams"
+    pais: "Reino Unido"
+    motor: "Mercedes"
+    pilotos:["Alexander Albon", "Logan Sargeant"]
+    },
+    ];
+    
+
+
+    
+    // Lista de circuitos con estadísticas y ganadores históricos
+    const circuitos = [
+    {
+    nombre: "Circuito de Mónaco",
+    pais: "Francia",
+    longitud_km: 3.34,
+    vueltas: 78,
+    descripcion: "Uno de los circuitos más prestigiosos y difíciles del calendario, conocido por sus calles angostas y
+    la falta de zonas de adelantamiento.",
+    record_vuelta: { tiempo: "1:10.166", piloto: "Lewis Hamilton", año: 2019 },
+    imagen: "https://s03.s3c.es/imag/_v0/770x420/d/8/2/Circuito-Montecarlo.jpg"
+    },
+
+
+    {
+    nombre: "Silverstone",
+    pais: "Reino Unido",
+    longitud_km: 5.89,
+    vueltas: 52,
+    descripcion: "Uno de los circuitos más rápidos del calendario, con curvas de alta velocidad como Maggotts y
+    Becketts.",
+    record_vuelta: { tiempo: "1:27.097", piloto: "Max Verstappen", año: 2020 },
+    imagen: "https://img2.51gt3.com/rac/article/202412/c9159132d5fc40c2b246e1869299f1bc.jpg"
+    },
+
+
+    {
+    nombre: "Circuito de Spa-Francorchamps",
+    pais: "Bélgica",
+    longitud_km: 7.00,
+    vueltas: 44,
+    descripcion: "Famoso por la curva Eau Rouge y la larga recta de Kemmel, un circuito donde la potencia del
+    motor es clave.",
+    record_vuelta: { tiempo: "1:46.286", piloto: "Valtteri Bottas", año: 2018 },
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPPRy_uQ0N7n26LHRUdpMOUVt4f9EP-FChiQ&s"
+    },
+
+
+    {
+    nombre: "Circuito de Monza",
+    pais: "Italia",
+    longitud_km: 5.79,
+    vueltas: 53,
+    descripcion: "Conocido como 'El Templo de la Velocidad', Monza es el circuito más rápido del calendario con
+    largas rectas y chicanes icónicas.",
+    record_vuelta: { tiempo: "1:21.046", piloto: "Rubens Barrichello", año: 2004 },
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG12AG7RUQ5y0vET3pYdff912eTnDh9AGluA&s"
+    },
+
+
+    {
+    nombre: "Interlagos",
+    pais: "Brasil",
+    longitud_km: 4.31,
+    vueltas: 71,
+    descripcion: "Interlagos es un circuito legendario con cambios de elevación y un trazado técnico que ha sido
+    sede de algunas de las carreras más emocionantes de la historia.",
+    record_vuelta: { tiempo: "1:10.540", piloto: "Valtteri Bottas", año: 2018 },
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0OtWY9DSBchQ-HqbY1fjc1iVZDILEJm-Vlw&s"
+    },
+
+
+    {
+    nombre: "Circuito de Yas Marina",
+    pais: "Emiratos Árabes Unidos",
+    longitud_km: 5.28,
+    vueltas: 58,
+    descripcion: "Ubicado en Abu Dhabi, es famoso por ser el circuito donde se definen muchos campeonatos, con
+    un diseño moderno y una espectacular carrera nocturna.",
+    record_vuelta: { tiempo: "1:39.283", piloto: "Lewis Hamilton", año: 2019 },
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8GJdCSc28ytty2J_sNmKoO9ooyo66qyUISQ&s"
+    },
+
+    ];
+
+
+
+
+    
+    
+    // Lista de vehículos con rendimiento detallado
+    const vehiculos = [
+    {
+    equipo: "Red Bull Racing",
+    modelo: "RB20",
+    motor: "Honda",
+    velocidad_maxima_kmh: 360,
+    aceleracion_0_100: 2.5,
+    pilotos: [1, 2], // Max Verstappen y Sergio Pérez
+    rendimiento: {
+    conduccion_normal: {
+    velocidad_promedio_kmh: 320,
+    consumo_combustible: { seco: 1.9, lluvioso: 2.1, extremo: 2.4 },
+    desgaste_neumaticos: { seco: 1.5, lluvioso: 0.8, extremo: 2.5 }
+    },
+    conduccion_agresiva: {
+    velocidad_promedio_kmh: 340,
+    
+    velocidad_promedio_kmh: 340,
+    consumo_combustible: { seco: 2.4, lluvioso: 2.6, extremo: 3.0 },
+    desgaste_neumaticos: { seco: 2.2, lluvioso: 1.2, extremo: 3.5 }
+    },
+    ahorro_combustible: {
+    velocidad_promedio_kmh: 300,
+    consumo_combustible: { seco: 1.6, lluvioso: 1.8, extremo: 2.1 },
+    desgaste_neumaticos: { seco: 1.0, lluvioso: 0.5, extremo: 1.8 }
+    }
+    },
+    imagen: "https://upload.wikimedia.org/wikipedia/commons/8/89/Max_Verstappen_2023_Austria_FP2_%28crop
+    ped%29.jpg"
+    },
+    {
+    equipo: "Mercedes-AMG Petronas",
+    modelo: "W15",
+    motor: "Mercedes",
+    velocidad_maxima_kmh: 355,
+    aceleracion_0_100: 2.6,
+    pilotos: [3, 4], // Lewis Hamilton y George Russell
+    rendimiento: {
+    conduccion_normal: {
+    velocidad_promedio_kmh: 315,
+    consumo_combustible: { seco: 2.0, lluvioso: 2.2, extremo: 2.5 },
+    desgaste_neumaticos: { seco: 1.6, lluvioso: 0.9, extremo: 2.6 }
+    },
+    conduccion_agresiva: {
+    velocidad_promedio_kmh: 335,
+    consumo_combustible: { seco: 2.6, lluvioso: 2.8, extremo: 3.2 },
+    desgaste_neumaticos: { seco: 2.3, lluvioso: 1.4, extremo: 3.8 }
+    
+    desgaste_neumaticos: { seco: 2.3, lluvioso: 1.4, extremo: 3.8 }
+    },
+    ahorro_combustible: {
+    velocidad_promedio_kmh: 295,
+    consumo_combustible: { seco: 1.7, lluvioso: 1.9, extremo: 2.2 },
+    desgaste_neumaticos: { seco: 1.1, lluvioso: 0.6, extremo: 1.9 }
+    }
+    },
+    imagen: "https://upload.wikimedia.org/wikipedia/commons/8/87/Lewis_Hamilton_2022_Imola.jpg"
+    }
+    ]
