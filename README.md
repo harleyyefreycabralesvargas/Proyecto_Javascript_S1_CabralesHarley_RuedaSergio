@@ -16,7 +16,7 @@ Este proyecto tiene como proposito el desarrollo de una web interactiva para des
 | Gestion de elementos Storage| [Storage](https://github.com/harleyyefreycabralesvargas/Proyecto_Javascript_S1_CabralesHarley_RuedaSergio/tree/master/storage)|
 | Carpeta con styles de menus| [Styles](https://github.com/harleyyefreycabralesvargas/Proyecto_Javascript_S1_CabralesHarley_RuedaSergio/tree/master/styles)  |
 | Codigo de menu de user | [Menu_User](https://github.com/harleyyefreycabralesvargas/Proyecto_Javascript_S1_CabralesHarley_RuedaSergio/blob/master/menu_opciones_user.html)|
-| Codigo de panel de Login| [Login](https://github.com/harleyyefreycabralesvargas/Proyecto_Javascript_S1_CabralesHarley_RuedaSergio/blob/master/index_login.html)
+| Codigo de panel de Login| [Login](https://github.com/harleyyefreycabralesvargas/Proyecto_Javascript_S1_CabralesHarley_RuedaSergio/blob/master/index.html)
 | Codigo panel Register| [Register](https://github.com/harleyyefreycabralesvargas/Proyecto_Javascript_S1_CabralesHarley_RuedaSergio/blob/master/index_register.html)|
 | Menu de circuitos| [Circuitos](https://github.com/harleyyefreycabralesvargas/Proyecto_Javascript_S1_CabralesHarley_RuedaSergio/blob/master/menu_circuitos.html)   |
 | Menu escuderias| [Escuderias](https://github.com/harleyyefreycabralesvargas/Proyecto_Javascript_S1_CabralesHarley_RuedaSergio/blob/master/menu_escuderias.html)|
