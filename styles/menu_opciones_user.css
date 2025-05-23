@@ -16,7 +16,7 @@ body {
     background-image: url("../storage/images/fondo_menu_de_usuarios.webp");
     background-repeat: no-repeat;
     background-size: 100%;
-    animation: animacion1 10s infinite;
+    animation: animacion1 50s infinite;
 }
 
 .panel_interactivo {
@@ -114,7 +114,7 @@ body {
     width: 26.2vw;
     height: 16.7vw;
     border-radius: 60px;
-    background-image: url("../storage/images/escuderias_1.webp");
+    background-image: url("../storage/images/imagen_escuderias.webp");
     position: relative;
     left: 65vw;
     top: -60vh;
@@ -155,5 +155,9 @@ body {
     }
 
     
+}
+
+a {
+    text-decoration: none;
 }
 

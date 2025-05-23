@@ -17,7 +17,7 @@ let link_incio=document.getElementById("redirecciones")
             link_incio.innerHTML=` 
             
             <div id="redirecciones">
-            <button class="boton" type="button" id="entrar"><a class="text_boton" href="./index_login.html"><p class="text_boton">No Entrar</p></a></button>
+            <button class="boton" type="button" id="entrar"><a class="text_boton" href="./index_login.html"><p class="text_boton">Entrar</p></a></button>
             <p class="text_Register">Si no tienes cuenta, crea una ||</p>
             <a href="./index_register.html">
                 <p class="create_account">Crear cuenta</p>
@@ -41,25 +41,27 @@ for(i=0;i<daticos.length ;i++){
         console.log(correo_user);
         console.log(contrasena_user);
         if(tomar_correo1== correo_user && usuarios_user=="user"){
+            if(tomar_contraseña1==contrasena_user){
             h=1
             console.log("tomaron los datos para verificar user")
             let link_incio=document.getElementById("redirecciones")
                 link_incio.innerHTML=`  
             <div id="redirecciones">
-            <button class="boton" type="button" id="entrar"><a class="text_boton" href="./menu_opciones_user.html"><p class="text_boton">Entrar user</p></a></button>
+            <button class="boton" type="button" id="entrar"><a class="text_boton" href="./menu_opciones_user.html"><p class="text_boton">Entrar</p></a></button>
             <p class="text_Register">Si no tienes cuenta, crea una ||</p>
             <a href="./index_register.html">
                 <p class="create_account">Crear cuenta</p>
             </a>
             </div>`
             }
+        }
         else if(tomar_correo1==correo_user && usuarios_user=="admin"){
             if(tomar_contraseña1==contrasena_user){
                 let link_incio=document.getElementById("redirecciones")
                 console.log("probar si es admin")
                 link_incio.innerHTML=`  
                     <div id="redirecciones">
-                    <button class="boton" type="button" id="entrar"><a class="text_boton" href="./menu_opciones_admin.html"><p class="text_boton">Entrar admin</p></a></button>
+                    <button class="boton" type="button" id="entrar"><a class="text_boton" href="./menu_opciones_admin.html"><p class="text_boton">Entrar</p></a></button>
                     <p class="text_Register">Si no tienes cuenta, crea una ||</p>
                     <a href="./index_register.html">
                         <p class="create_account">Crear cuenta</p>
@@ -72,7 +74,7 @@ for(i=0;i<daticos.length ;i++){
             let link_incio=document.getElementById("redirecciones")
             link_incio.innerHTML=` 
             <div id="redirecciones">
-            <button class="boton" type="button" id="entrar"><a class="text_boton" href="./index_login.html"><p class="text_boton">no Entrar</p></a></button>
+            <button class="boton" type="button" id="entrar"><a class="text_boton" href="./index_login.html"><p class="text_boton">Entrar</p></a></button>
             <p class="text_Register">Si no tienes cuenta, crea una ||</p>
             <a href="./index_register.html">
                 <p class="create_account">Crear cuenta</p>
@@ -96,7 +98,7 @@ for(i=0;i<daticos.length ;i++){
 
 
 
-document.getElementById("entrar").addEventListener("click",function(){
+document.getElementById("contraseña").addEventListener("input",function(){
     if(this.value !==""){
         let tomar_correo1=document.getElementById("correo").value
         let tomar_contraseña1 = document.getElementById("contraseña").value

@@ -7,16 +7,16 @@ const pilotos = [
     { id: 6, nombre: "Carlos Sainz", equipo: "Ferrari", rol: "Escudero", imagen_piloto:"https://www.carlossainz.es/upload/media/default/0001/18/5d079623d92331fe912be990fdc9395866369966.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/ferrari.png" },
     { id: 7, nombre: "Lando Norris", equipo: "McLaren", rol: "Líder", imagen_piloto:"https://sportrenders.com/wp-content/uploads/2024/05/Norris-PNG-F1-Render-Formula-1-1-1.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/mclaren.png" },
     { id: 8, nombre: "Oscar Piastri", equipo: "McLaren", rol: "Escudero", imagen_piloto:"https://sportrenders.com/wp-content/uploads/2024/09/Oscar-Piastri-PNG-Formula-1-Mclaren-Render.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/mclaren.png" },
-    { id: 9, nombre: "Fernando Alonso", equipo: "Aston Martin", rol: "Líder", imagen_piloto:"https://e00-especiales-marca.uecdn.es/motor/images/formula1/escuderias/2025/astonmartin/alonso.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/aston-martin.png" },
-    { id: 10, nombre: "Lance Stroll", equipo: "Aston Martin", rol: "Escudero", imagen_piloto:"https://e00-especiales-marca.uecdn.es/motor/images/formula1/escuderias/2025/astonmartin/stroll.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/aston-martin.png" },
+    { id: 9, nombre: "Fernando Alonso", equipo: "Aston Martin", rol: "Líder", imagen_piloto:"https://cdn.racingnews365.com/_570x570_crop_center-center_none/feralo01.png?v=1741601656",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/aston-martin.png" },
+    { id: 10, nombre: "Lance Stroll", equipo: "Aston Martin", rol: "Escudero", imagen_piloto:"https://premaracing.com/pictures/hall-of-fame/card/lance-stroll.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/aston-martin.png" },
     { id: 11, nombre: "Esteban Ocon", equipo: "Alpine", rol: "Líder", imagen_piloto:"https://premaracing.com/pictures/hall-of-fame/card/esteban-ocon.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/alpine.png" },
     { id: 12, nombre: "Pierre Gasly", equipo: "Alpine", rol: "Escudero", imagen_piloto:"https://premaracing.com/pictures/hall-of-fame/card/pierre-gasly.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/alpine.png" },
     { id: 13, nombre: "Valtteri Bottas", equipo: "Alfa Romeo", rol: "Líder", imagen_piloto:"https://premaracing.com/pictures/hall-of-fame/card/valtteri-bottas.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/kick-sauber.png" },
     { id: 14, nombre: "Zhou Guanyu", equipo: "Alfa Romeo", rol: "Escudero", imagen_piloto:"https://premaracing.com/pictures/hall-of-fame/card/guanyu-zhou.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/kick-sauber.png" },
     { id: 15, nombre: "Kevin Magnussen", equipo: "Haas", rol: "Líder", imagen_piloto:"https://lifeextensioneurope.b-cdn.net//media/2e/f2/8d/1697606471/Kevin_700x770.png?width=3000&height={height}",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/haas.png" },
     { id: 16, nombre: "Nico Hülkenberg", equipo: "Haas", rol: "Escudero", imagen_piloto:"https://www.kymillman.com/wp-content/uploads/f1/pages/driver-profiles/nico-hulkenberg/nico-hulkenberg-walking.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/haas.png" },
-    { id: 17, nombre: "Yuki Tsunoda", equipo: "AlphaTauri", rol: "Líder", imagen_piloto:"https://www.kymillman.com/wp-content/uploads/f1/pages/driver-profiles/yuki-tsunoda/yuki-tsunoda-walking.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/racing-bulls.png" },
-    { id: 18, nombre: "Daniel Ricciardo", equipo: "AlphaTauri", rol: "Escudero", imagen_piloto:"https://e00-especiales-marca.uecdn.es/motor/images/formula1/escuderias/2022/v2/mclaren/ricciardo.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/racing-bulls.png" },
+    { id: 17, nombre: "Yuki Tsunoda", equipo: "AlphaTauri", rol: "Líder", imagen_piloto:"https://soymotor.com/sites/default/files/2025-03/yuki-tsunoda-red-bull-2025.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/racing-bulls.png" },
+    { id: 18, nombre: "Daniel Ricciardo", equipo: "AlphaTauri", rol: "Escudero", imagen_piloto:"https://www.kymillman.com/wp-content/uploads/f1/pages/driver-profiles/daniel-ricciardo/daniel-ricciardo-walking.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/racing-bulls.png" },
     { id: 19, nombre: "Alexander Albon", equipo: "Williams", rol: "Líder", imagen_piloto:"https://www.kymillman.com/wp-content/uploads/f1/pages/driver-profiles/alexander-albon/alexander-albon-walking.png",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/williams.png" },
     { id: 20, nombre: "Logan Sargeant", equipo: "Williams", rol: "Escudero", imagen_piloto:"https://cdn.williamsf1.tech/images/fnx611yr/production/81af34166fa93b27bfa286e3a2386e29fcab9132-1200x1200.png?w=625&h=625&auto=format",imagen_coche:"https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/williams.png" }
     ]
@@ -28,6 +28,7 @@ const pilotos = [
     pais: "Austria",
     motor: "Honda",
     pilotos: ["Max Verstappen","Sergio Perez"],
+    imagen: "https://cdn-6.motorsport.com/images/mgl/Y99JQRbY/s8/red-bull-racing-logo-1.jpg"
     },
 
     {
@@ -35,6 +36,7 @@ const pilotos = [
     pais: "Alemania",
     motor: "Mercedes",
     pilotos: ["Lewis Hamilton", "George Russel"],
+    imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Mercedes-Benz_Star.svg/1200px-Mercedes-Benz_Star.svg.png"
     },
 
     {
@@ -42,6 +44,7 @@ const pilotos = [
     pais: "Italia",
     motor: "Ferrari",
     pilotos: ["Charles Leclerc", "Carlos Sainz"],
+    imagen: "https://img.remediosdigitales.com/96633b/140013_cor/450_1000.jpg"
     },
 
     {
@@ -49,6 +52,7 @@ const pilotos = [
     pais: "Inglaterra"
     motor: "Mercedes"
     pilotos: ["Lando Norris", "Oscar Piastri"]
+    imagen: "https://play-lh.googleusercontent.com/OFYikqwqD_VeGP8edlTN5wet-GCoufba7JppkgpzUBM9c8uwgJiqaqoIjSBecl3vkQ"
     },
 
     {
@@ -56,6 +60,7 @@ const pilotos = [
     pais: "Reino Unido"
     motor: "Mercedes"
     pilotos:["Fernando Alonso", "Lance Stroll"]
+    imagen: "https://cdn-5.motorsport.com/images/mgl/0rGRlkm2/s8/aston-martin-logo-2022-1.jpg"
     },
 
     {
@@ -63,6 +68,7 @@ const pilotos = [
     pais: "Francia"
     motor: "Renault"
     pilotos:["Esteban Ocon", "Pierre Gasly"]
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjlgCOHTdPgUDdYPCzhx8ttR1ydkjMht4Vwg&s"
     },
 
     {
@@ -70,6 +76,7 @@ const pilotos = [
     pais: "Suiza"
     motor: "Ferrari"
     pilotos:["Valtteri Bottas", "Zhou Guanyu"]
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK-SX3AChfKTqFFocL3xVELn1VQjX4Dl82d11_S6_NAb4JFhLqs7oY_7_9Lt8_uAwvAK0&usqp=CAU"
     },
 
     {
@@ -77,6 +84,7 @@ const pilotos = [
     pais: "Estados Unidos"
     motor: "Ferrari"
     pilotos:["Kevin Magnussen", "Nico Hülkenberg"]
+    imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Logo_Haas_F1.png/800px-Logo_Haas_F1.png"
     },
 
     {
@@ -84,6 +92,7 @@ const pilotos = [
     pais: "Italia"
     motor: "Honda"
     pilotos:["Yuki Tsunoda", "Daniel Ricciardo"]
+    imagen: "https://a.espncdn.com/photo/2024/0124/r1281611_1296x729_16-9.jpg"
     },
 
     {
@@ -91,6 +100,7 @@ const pilotos = [
     pais: "Reino Unido"
     motor: "Mercedes"
     pilotos:["Alexander Albon", "Logan Sargeant"]
+    imagen: "https://upload.wikimedia.org/wikipedia/commons/f/f9/Logo_Williams_F1.png"
     },
     ];
     
@@ -176,64 +186,92 @@ const pilotos = [
 
 
     
+
+
+
+
     
-    // Lista de vehículos con rendimiento detallado
+    // Lista de vehículos 
     const vehiculos = [
-    {
-    equipo: "Red Bull Racing",
-    modelo: "RB20",
-    motor: "Honda",
-    velocidad_maxima_kmh: 360,
-    aceleracion_0_100: 2.5,
-    pilotos: [1, 2], // Max Verstappen y Sergio Pérez
-    rendimiento: {
-    conduccion_normal: {
-    velocidad_promedio_kmh: 320,
-    consumo_combustible: { seco: 1.9, lluvioso: 2.1, extremo: 2.4 },
-    desgaste_neumaticos: { seco: 1.5, lluvioso: 0.8, extremo: 2.5 }
-    },
-    conduccion_agresiva: {
-    velocidad_promedio_kmh: 340,
-    
-    velocidad_promedio_kmh: 340,
-    consumo_combustible: { seco: 2.4, lluvioso: 2.6, extremo: 3.0 },
-    desgaste_neumaticos: { seco: 2.2, lluvioso: 1.2, extremo: 3.5 }
-    },
-    ahorro_combustible: {
-    velocidad_promedio_kmh: 300,
-    consumo_combustible: { seco: 1.6, lluvioso: 1.8, extremo: 2.1 },
-    desgaste_neumaticos: { seco: 1.0, lluvioso: 0.5, extremo: 1.8 }
-    }
-    },
-    imagen: "https://upload.wikimedia.org/wikipedia/commons/8/89/Max_Verstappen_2023_Austria_FP2_%28crop
-    ped%29.jpg"
-    },
-    {
-    equipo: "Mercedes-AMG Petronas",
-    modelo: "W15",
-    motor: "Mercedes",
-    velocidad_maxima_kmh: 355,
-    aceleracion_0_100: 2.6,
-    pilotos: [3, 4], // Lewis Hamilton y George Russell
-    rendimiento: {
-    conduccion_normal: {
-    velocidad_promedio_kmh: 315,
-    consumo_combustible: { seco: 2.0, lluvioso: 2.2, extremo: 2.5 },
-    desgaste_neumaticos: { seco: 1.6, lluvioso: 0.9, extremo: 2.6 }
-    },
-    conduccion_agresiva: {
-    velocidad_promedio_kmh: 335,
-    consumo_combustible: { seco: 2.6, lluvioso: 2.8, extremo: 3.2 },
-    desgaste_neumaticos: { seco: 2.3, lluvioso: 1.4, extremo: 3.8 }
-    
-    desgaste_neumaticos: { seco: 2.3, lluvioso: 1.4, extremo: 3.8 }
-    },
-    ahorro_combustible: {
-    velocidad_promedio_kmh: 295,
-    consumo_combustible: { seco: 1.7, lluvioso: 1.9, extremo: 2.2 },
-    desgaste_neumaticos: { seco: 1.1, lluvioso: 0.6, extremo: 1.9 }
-    }
-    },
-    imagen: "https://upload.wikimedia.org/wikipedia/commons/8/87/Lewis_Hamilton_2022_Imola.jpg"
-    }
+        {
+            equipo: "RedBull"
+            modelo: "RB19"
+            motor: "Honda"
+            peso: "798 KG"
+            top speed: "355 KM/H"
+            imagen: "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/red-bull-racing.png"
+        },
+        {
+            equipo: "Mercedes"
+            modelo: "W15 E PERFORMANCE"
+            motor: "Mercedes"
+            peso: "798 KG"
+            top speed: "360 KM/H"
+            imagen: "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/mercedes.png"
+        },
+        {
+            equipo: "Ferrari"
+            modelo: "SF-25"
+            motor: "Honda"
+            peso: "798 KG"
+            top speed: "374.97 KM/H"
+            imagen: "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/ferrari.png"
+        },
+        {
+            equipo: "McLaren"
+            modelo: "MCL39"
+            motor: "Mercedes"
+            peso: "798 KG"
+            top speed: "372.5 KM/H"
+            imagen: "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/mclaren.png"
+        },
+        {
+            equipo: "Aston Martin"
+            modelo: "DBR4"
+            motor: "Mercedes"
+            peso: "798 KG"
+            top speed: "313 KM/H"
+            imagen: "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/aston-martin.png"
+        },
+        {
+            equipo: "Alpine"
+            modelo: "A525"
+            motor: "Renault"
+            peso: "800 KG"
+            top speed: "372.5 KM/H"
+            imagen: "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/alpine.png"
+        },
+        {
+            equipo: "Alfa Romeo"
+            modelo: "C42"
+            motor: "Ferrari"
+            peso: "800 KG"
+            top speed: "371.7 KM/H"
+            imagen: "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/alpine.png"
+        },
+        {
+            equipo: "Haas"
+            modelo: "VF-25"
+            motor: "Ferrari"
+            peso: "743 KG"
+            top speed: "351.7 KM/H"
+            imagen: "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/haas.png"
+        },
+        {
+            equipo: "AlphaTauri"
+            modelo: "AT04"
+            motor: "Honda"
+            peso: "798 KG"
+            top speed: "372 KM/H"
+            imagen: "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/racing-bulls.png"
+        },
+        {
+            equipo: "Williams"
+            modelo: "FW47"
+            motor: "Mercedes"
+            peso: "800 KG"
+            top speed: "378 KM/H"
+            imagen: "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/williams.png"
+        },
     ]
+

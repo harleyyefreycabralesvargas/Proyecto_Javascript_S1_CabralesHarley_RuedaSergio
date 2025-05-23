@@ -11,11 +11,13 @@
 
 
 body {
+    background-color: black;
     width: 1920px;
     height: 1080px;
     background-image: url("../storage/images/back_1_1.webp");
     background-repeat: no-repeat;
     background-size: 100%;
+    animation: animacion1 50s infinite;
 }
 .panel_interactivo {
     position: relative;
@@ -77,6 +79,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    position: relative;
+    left: 5.6vw;
 }
 
 .background_card {
@@ -136,4 +140,30 @@ body {
     width: 223px;
     left: 1vw;
     top: -5vh;
+}
+@keyframes animacion1 {
+    0% {
+        background-image: url("../storage/images/pilotos_todos1.png")
+    }
+
+    25% {
+        background-image: url("../storage/images/vuelta1.png");
+    }
+    
+    50% {
+        background-image: url("../storage/images/escuderias2.png")
+    }
+
+    75% {
+        background-image: url("../storage/images/taller1.png")
+    }
+
+    100% {
+        background-image: url("../storage/images/pilotos_todos1.png")
+    }
+
+    
+}
+a {
+    text-decoration: none;
 }

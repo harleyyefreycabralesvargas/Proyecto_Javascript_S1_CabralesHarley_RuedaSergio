@@ -18,11 +18,6 @@ for(i=0;i<daticos.pilotos.length ;i++){
     <p class="team">${daticos.pilotos[i].equipo}</p>
     <img src="${daticos.pilotos[i].imagen_coche}" alt="" class="coche">
     <img src="${daticos.pilotos[i].imagen_piloto}" alt="" class="piloto">
-   
-  
-    
-    
-
 </div>`
         
     }

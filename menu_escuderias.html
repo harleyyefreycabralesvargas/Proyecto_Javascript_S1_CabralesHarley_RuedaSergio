@@ -11,57 +11,53 @@
 </head>
 <body>
     <div class="panel_interactivo">
-        <p class="pilotos">Pilotos</p>
-        <p class="coches">Coches</p>
-        <p class="circuitos">Circuitos</p>
-        <p class="escuderias">Escuderias</p>
+
+        <a href="./menu_pilotos.html">
+            <p class="pilotos">Pilotos</p>
+        </a>
+
+        <a href="./menu_coches.html">
+            <p class="coches">Coches</p>
+        </a>
+
+        <a href="./menu_circuitos.html">
+            <p class="circuitos">Circuitos</p>
+        </a>
+
+        <a href="./menu_escuderias.html">
+            <p class="escuderias">Escuderias</p>
+        </a>
+
         <p class="personalizar">Personalizar</p>
+
     </div>
 
 
-    <a href="">
-        <button class="mclaren"></button>
-    </a>
-
-    <a href="">
-        <button class="ferrari"></button>
-    </a>
+  
 
 
-    <a href="">
-        <button class="mercedes"></button>
-    </a>
-    
-    <a href="">
-        <button class="redbull"></button>
-    </a>
+    <div id="mostrar_escudos">
+        <div class="logo_espacio" id="logo_espacio1" onclick="ocultar(this)">
 
-    <a href="">
-        <button class="alpine"></button>
-    </a>
+        </div>
+    </div>
 
-    <a href="">
-        <button class="astonmartin"></button>
-    </a>
 
-    <a href="">
-        <button class="haas"></button>
-    </a>
 
-    <a href="">
-        <button class="racingbulls"></button>
-    </a>
 
-    <a href="">
-        <button class="sauber"></button>
-    </a>
 
-    <a href="">
-        <button class="williams"></button>
-    </a>
+    <div class="container">
+        <img src="./storage/images/mclaren_1.webp" alt="" class="imagen_escuderia">
+        <p class="nombre_escuderia">Red Bull Racing</p>
+        <p class="pais_escuderia">Pais: Austria</p>
+        <p class="motor">Motor: Honda</p>
+        <p class="pilotos">Pilotos: Max Verstappen, Sergio Perez</p>
+    </div>
 
 
 
     
 </body>
+<script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+<script type="module" src="./scripts/escuderia.js"></script>
 </html>

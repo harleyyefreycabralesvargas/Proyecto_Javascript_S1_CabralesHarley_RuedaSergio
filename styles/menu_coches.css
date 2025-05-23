@@ -11,10 +11,9 @@
 
 
 body {
-    background-color: black;
+    background-color: rgb(41, 41, 41);
     width: 1920px;
     height: 1080px;
-    background-color: rgb(59, 57, 57);
     animation: animacion1 50s infinite;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -74,30 +73,6 @@ body {
     left: 68vw;
     top: -20vw;
 }
-
-/* -------------------------------------------------------- */
-
-#mostrar_escudos{
-    border: 2px solid red ;
-    margin-top: 3vw;
-    margin-left: 3.5vw;
-    gap: 30px;
-}
-
-
-#logo_espacio{
-    border: 2px solid blue;
-    display: none;
-    top: 5vw;
-}
-
-.logo{
-    border: 3px solid green;
-    width: 30vw;
-    height: 25vh;
-}
-
-
 @keyframes animacion1 {
     0% {
         background-image: url("../storage/images/pilotos_todos1.png")
@@ -121,55 +96,8 @@ body {
 
     
 }
+
 a {
     text-decoration: none;
 }
 
-.container {
-    position: relative;
-    background-color: black;
-    border-radius: 70px;
-    width: 30vw;
-    top: -10vh;
-
-}
-
-.imagen_escuderia {
-    position: relative;
-    left: 2.5vw;
-    
-}
-
-.nombre_escuderia {
-    position: relative;
-    color: white;
-    font-family: "letra";
-    font-size: 30px;
-    text-align: center;
-}
-
-.pais_escuderia {
-    position: relative;
-    font-family: "letra";
-    font-size: 30px;
-    color: white;
-    text-align: center;
-}
-
-.motor {
-    position: relative;
-    font-family: "letra";
-    font-size: 30px;
-    color: white;
-    text-align: center;
-}
-
-.pilotos {
-    position: relative;
-    font-family: "letra";
-    font-size: 30px;
-    color: white;
-    text-align: center;
-    top: -3vh;
-    left: -1vw;
-}
