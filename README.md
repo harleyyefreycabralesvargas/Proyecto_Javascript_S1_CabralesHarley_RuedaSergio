@@ -3,6 +3,8 @@
 ¡Bienvenido al repositorio del proyecto Kario Media PM! 🚀
 
 📖 Descripción
+
+
 Este proyecto consiste en el desarrollo de un programa interactivo en el que se pueda gestionar el manejo de APIS con tematica de Formula 1. Usando HTML, CSS y JavaScript
 
 
